@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: salin;
+  src: url(/fonts/Fontspring-DEMO-salin-medium.otf);
+}
+@font-face {
+  font-family: salin-regular;
+  src: url(/fonts/Fontspring-DEMO-salin-regular.otf);
+}
+
+header {
+  width: 100%;
+  /* background-color: aqua; */
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 20px 100px;
+  align-items: center;
+}
+.container-links {
+  width: 30%;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: salin;
+  font-size: 1.5rem;
+}
+.nav-item a {
+  text-decoration: none;
+  font-family: salin-regular;
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: rgb(61, 61, 61);
+}
+.container-buttons-nav {
+  display: flex;
+  width: 17%;
+  justify-content: space-evenly;
+}
+.container-buttons-nav button {
+  padding: 0.3rem 1.5rem;
+  border-radius: 20px;
+ 
+}
+.container-buttons-nav button a {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 0.8rem;
+}
+.btn-primary a {
+  color: white;
+}
+.btn-primary {
+  border: none;
+  background-color: #1d64ec;
+}
+.btn-outline a {
+  color: #1d64ec;
+}
+.btn-outline {
+  border: 1px solid #1d64ec;
+  background-color: white;
+}
+
