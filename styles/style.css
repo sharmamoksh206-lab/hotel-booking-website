@@ -53,7 +53,8 @@ nav {
 .container-buttons-nav button {
   padding: 0.3rem 1.5rem;
   border-radius: 20px;
- 
+  cursor: pointer;
+  transition: 0.5s all;
 }
 .container-buttons-nav button a {
   text-decoration: none;
@@ -73,5 +74,21 @@ nav {
 .btn-outline {
   border: 1px solid #1d64ec;
   background-color: white;
+  
+  
+}
+.btn-outline:hover {
+ a{
+    color: white;
+ }
+  background-color: #1d64ec;
 }
 
+.btn-primary:hover {
+  a{
+    color:#1d64ec ;
+
+  }
+  background-color: white;
+border: 1px solid #1d64ec;
+}
