@@ -36,12 +36,12 @@ nav {
 
 .nav-logo {
   font-family: salin;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .nav-item a {
   text-decoration: none;
   font-family: salin-regular;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 200;
   color: rgb(61, 61, 61);
 }
@@ -59,7 +59,7 @@ nav {
 .container-buttons-nav button a {
   text-decoration: none;
   font-family: poppins;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .btn-primary a {
   color: white;
@@ -91,4 +91,82 @@ nav {
   }
   background-color: white;
 border: 1px solid #1d64ec;
+}
+
+.hero-section{
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-container{
+  width: 100%;
+ min-height: 30vh;
+  background-image: url(/images/visualsofdana-T5pL6ciEn-I-unsplash.jpg);
+   background-size:cover;
+  background-position:center 60%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 100px black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    font-size: 40px;
+    color: white;
+    font-family: poppins;
+  }
+  p{
+    font-size: 18px;
+    font-family: poppins;
+    color: white;
+  }
+
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-signup-button{
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: white;
+  transform: translateY(-30px);
+  border-radius: 50px;
+  box-shadow: 1px 1px 10px rgb(163, 163, 163);
+}
+.hero-signup-div{
+padding: 0px 40px;
+}
+.hero-signup-div-p1{
+  color: black;
+  font-size: 16px;
+  font-family: salin-regular;
+}
+.hero-signup-div-p2{
+   color: rgb(110, 110, 110);
+   font-family: salin-regular;
+   font-size: 14px;
+}
+
+.check-in{
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.check-out{
+  border-right: 1px solid grey;
+}
+.arrow-button{
+  background-color: #1d64ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  border-radius: 50%;
 }
